@@ -1,0 +1,9 @@
+Class Definition : The class Student models your real-world object.
+  Properties (Fields): name, studentId.   
+  Behaviors (Methods): addGrade(), getAverage(), and printRecord().
+
+Constructor : Student(this.name, this.studentId); sets the initial values when a new student object is created.
+
+Encapsulation : The field _grades is marked private using an underscore. It cannot be directly overwritten from the outside; it must be updated safely using the addGrade() method.
+
+List Usage : List<Student> enrolledStudents = [student1, student2]; correctly stores a collection of your objects in the main() function.
